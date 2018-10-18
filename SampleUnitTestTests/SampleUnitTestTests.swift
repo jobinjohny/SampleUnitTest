@@ -34,6 +34,7 @@ class SampleUnitTestTests: XCTestCase {
     func testcalculatePercentage() {
         let p = vc.calculatePercentage(percentage: 10, percentageValue: 100);
         XCTAssert(p == 10)
+        
     }
     
 }
