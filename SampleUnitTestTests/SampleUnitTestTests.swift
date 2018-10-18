@@ -15,6 +15,7 @@ class SampleUnitTestTests: XCTestCase {
         super.setUp()
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         vc = storyboard.instantiateViewController(withIdentifier: "jobin") as! ViewController
+        
     }
     
     override func tearDown() {
