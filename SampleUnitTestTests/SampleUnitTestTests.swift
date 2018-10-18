@@ -15,6 +15,7 @@ class SampleUnitTestTests: XCTestCase {
         super.setUp()
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         vc = storyboard.instantiateViewController(withIdentifier: "jobin") as! ViewController
+        
     }
     
     override func tearDown() {
@@ -33,6 +34,7 @@ class SampleUnitTestTests: XCTestCase {
     func testcalculatePercentage() {
         let p = vc.calculatePercentage(percentage: 10, percentageValue: 100);
         XCTAssert(p == 10)
+        
     }
     
 }
